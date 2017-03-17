@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E9E1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:fontFamily="casual"
+        android:text="Daftar prodi Fakultas Saintek Unisnu Jepara :"
+        android:textColor="#007A08"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="#006400"
+        android:fontFamily="cursive"
+        android:text="@string/quote"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#E1E9E1"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="true"
+        android:paddingBottom="30dp"
+        android:paddingTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/saintek" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dediwi"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/imageView2"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Teknik Informatika"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignRight="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_below="@+id/checkBox"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Sistem Informasi"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignRight="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Desain Produk"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox3"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_alignRight="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_below="@+id/checkBox3"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Teknik Industri"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox4"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_alignRight="@+id/checkBox4"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_below="@+id/checkBox4"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Teknik Elektro"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox5"
+        android:layout_alignLeft="@+id/checkBox5"
+        android:layout_alignRight="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_below="@+id/checkBox5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Teknik Sipil"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox6"
+        android:layout_alignLeft="@+id/checkBox6"
+        android:layout_alignRight="@+id/checkBox6"
+        android:layout_alignStart="@+id/checkBox6"
+        android:layout_below="@+id/checkBox6"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Budidaya Perairan"
+        android:textColor="#00A60B" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox7"
+        android:layout_alignLeft="@+id/checkBox7"
+        android:layout_alignRight="@+id/checkBox7"
+        android:layout_alignStart="@+id/checkBox7"
+        android:layout_below="@+id/checkBox7"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Desain Komunikasi Visual"
+        android:textColor="#00A60B" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox8"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/checkBox8"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/checkBox8"
+        android:paddingTop="5dp"
+        android:text="@string/info"
+        android:textColor="#007A08" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox8"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/checkBox8"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:text="@string/alamat"
+        android:textColor="#007A08" />
+
+
+</RelativeLayout>
