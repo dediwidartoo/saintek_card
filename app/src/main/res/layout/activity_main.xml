@@ -31,6 +31,7 @@
         android:fontFamily="cursive"
         android:text="@string/quote"
         android:textAlignment="center"
+        android:gravity="center"
         android:textAllCaps="false"
         android:textColor="#E1E9E1"
         android:textSize="15sp"
